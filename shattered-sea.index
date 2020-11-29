@@ -5,11 +5,11 @@
 		<description>Campaign setting</description>
 		<author url="https://github.com/Zorpoks/dnd-5e-shattered-seas.git">Zorpoks</author>
 		<update version="0.2">
-			<file name="shattered-sea.index" url="https://github.com/Zorpoks/dnd-5e-shattered-seas.git" />
+			<file name="shattered-sea.index" url="https://raw.githubusercontent.com/Zorpoks/dnd-5e-shattered-seas/main/shattered-sea.index" />
 		</update>
 	</info>
 	<files>	
-		<file name="source.xml" url="https://github.com/Zorpoks/dnd-5e-shattered-seas/blob/main/custom/source.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/Zorpoks/dnd-5e-shattered-seas/main/custom/items-weapons.xml" />
 		<!-- items -->
 		<file name="items-weapons.xml" url="https://github.com/Zorpoks/dnd-5e-shattered-seas/blob/main/custom/items-weapons.xml" />
 	</files>	
