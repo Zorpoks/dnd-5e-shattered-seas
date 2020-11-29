@@ -11,6 +11,6 @@
 	<files>	
 		<file name="source.xml" url="https://raw.githubusercontent.com/Zorpoks/dnd-5e-shattered-seas/main/custom/items-weapons.xml" />
 		<!-- items -->
-		<file name="items-weapons.xml" url="https://github.com/Zorpoks/dnd-5e-shattered-seas/blob/main/custom/items-weapons.xml" />
+		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Zorpoks/dnd-5e-shattered-seas/main/custom/items-weapons.xml" />
 	</files>	
 </index>
