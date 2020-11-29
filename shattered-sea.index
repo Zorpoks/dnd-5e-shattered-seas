@@ -8,4 +8,9 @@
 			<file name="shattered-sea.index" url="https://github.com/Zorpoks/dnd-5e-shattered-seas.git" />
 		</update>
 	</info>
+	<files>	
+		<file name="source.xml" url="https://github.com/Zorpoks/dnd-5e-shattered-seas/blob/main/custom/source.xml" />
+		<!-- items -->
+		<file name="items-weapons.xml" url="https://github.com/Zorpoks/dnd-5e-shattered-seas/blob/main/custom/items-weapons.xml" />
+	</files>	
 </index>
