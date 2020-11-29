@@ -18,8 +18,8 @@
 			<set name="cost" currency="sp">1</set>
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="slot">onehand</set>
-			<set name="damage" type="bludgeoning">1d4</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
 		</setters>
 	</element>	
 	<element name="Luckbringer" type="Magic Weapon" source="Shattered Sea Campaign Setting" id="ID_SHATTERED_SEA_CAMPAIGN_SETTING">
