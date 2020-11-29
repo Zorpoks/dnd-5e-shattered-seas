@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.2">
+			<file name="sources.xml" url="127.0.0.1" />
+		</update>
+	</info>
+	<element name="Shattered Sea Campaign Setting" type="Source" source="Shattered Sea Campaign Setting" url="127.0.0.1" id="ID_SHATTERED_SEA_CAMPAIGN_SETTING">
+		<description>
+			<![CDATA[<p><strong>Everything a player needs to create heroic characters for the world’s greatest roleplaying game.</strong></p><p>The Player’s Handbook is the essential reference for every Dungeons &amp; Dragons roleplayer. It contains rules for character creation and advancement, backgrounds and skills, exploration and combat, equipment, spells, and much more. Use this book to create exciting characters from among the most iconic D&amp;D races and classes.</p><p>Dungeons &amp; Dragons immerses you in a world of adventure. Explore ancient ruins and deadly dungeons. Battle monsters while searching for legendary treasures. Gain experience and power as you trek across uncharted lands with your companions.</p><p>The world needs heroes. Will you answer the call?</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">SS</set>
+			<set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/DnD_PHB.png</set>
+			<set name="author" abbreviation="MEH" url="127.0.0.1">Mads Holm</set>
+			<set name="official">false</set>
+			<set name="core">false</set>
+			<set name="url">127.0.0.1</set>
+			<set name="release">20201129</set>
+		</setters>
+	</element>
+</elements>

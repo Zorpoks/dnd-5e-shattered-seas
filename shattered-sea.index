@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Shattered Sea</name>
+		<description>Campaign setting</description>
+		<author url="127.0.0.1">Anders</author>
+		<update version="0.2">
+			<file name="shattered-sea.index" url="https://github.com/Zorpoks/dnd-5e-shattered-seas.git" />
+		</update>
+	</info>
+	<files>	
+		<file name="source.xml" url="D:\Users\Zorpoks\Documents\5e Character Builder\custom\user\custom\source.xml" />
+		<!-- items -->
+		<file name="items-weapons.xml" url="D:\Users\Zorpoks\Documents\5e Character Builder\custom\user\custom\items-weapons.xml" />
+	</files>
+</index>
