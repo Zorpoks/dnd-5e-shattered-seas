@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="sources.xml" url="https://github.com/Zorpoks/dnd-5e-shattered-seas/edit/main/custom/source.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Zorpoks/dnd-5e-shattered-seas/main/custom/source.xml" />
 		</update>
 	</info>
 	<element name="Shattered Sea Campaign Setting" type="Source" source="Shattered Sea Campaign Setting" url="127.0.0.1" id="ID_SHATTERED_SEA_CAMPAIGN_SETTING">
