@@ -2,29 +2,45 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.4">
+		<update version="0.0.1">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Zorpoks/dnd-5e-shattered-seas/main/custom/items-weapons.xml"/>
 		</update>
 	</info>
 	
-	<element name="Luckbringer" type="Magic Weapon" source="Shattered Sea Campaign Setting" id="ID_SHATTERED_SEA_CAMPAIGN_SETTING">
+	<!-- simple -->
+	<element name="Starknife" type="Weapon" source="Shattered Sea Campaign Setting" id="ID_SHATTERED_SEA_STARKNIFE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">2</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	<element name="Luckbringer" type="Magic Weapon" source="Shattered Sea Campaign Setting" id="ID_SHATTERED_SEA_LUCKBRINGER">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
 		<description>
-			<p>This large starknife looks as if it has been repaired dozens of times by diffrent craftsmen using diffrent materials.</p>
-			<p class="indent">When attuned to a Paladin of Desna who has the Lucky feat, increase the Luck pool by an amount equal to the wielders Charisma modifier.</p>
+			<p>This large starknife looks as if it has been repaired dozens of times by diffrent craftsmen using diffrent materials. When attuned to a Paladin of Desna who has the Lucky feat, increase the Luck pool by an amount equal to the wielders Charisma modifier.</p>
 			<p class="indent">Due to the Luckbringer's size, it can be wielded in two hands.</p>
 			<p class="indent">This magic weapon grants a +3 bonus to attack and damage rolls made with it, and it returns to the wielder’s hand immediately after it is used to make a ranged attack.</p>
 			<p class="indent">Luckbringer can absorb materials of other weapons, this gives the other weapon the broken condition and heals Starsword for 1d4 (for a medium one-handed weapon) HP, this scales with size and weapon type. This process takes 10 minutes.</p>
 			<p class="indent">Because Luckbringer contains fragments of most metals, it ignores Resistance to any type of metal.</p>
 		</description>
 		<setters>
-			<set name="keywords">dagger</set>
+			<set name="keywords">starknife</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="dagger">Weapon</set>
+			<set name="type" addition="starknife">Weapon</set>
 			<set name="rarity">Legendary</set>
+			<set name="weapon">Starknife</set>
+			<set name="name-format">Luckbringer</set>
 			<set name="enhancement">3</set>
-			<set name="weapon">Dagger</set>
 			<set name="damage" type="piercing">1d6</set>
 		</setters>
 	</element>	
