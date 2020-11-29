@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Zorpoks/dnd-5e-shattered-seas/main/custom/items-weapons.xml"/>
 		</update>
 	</info>
 	
 	<!-- simple -->
 	<element name="Starknife" type="Weapon" source="Shattered Sea Campaign Setting" id="ID_SHATTERED_SEA_CAMPAIGN_SETTING">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
 		<description>
 			<p></p>
 		</description>
@@ -22,7 +22,7 @@
 			<set name="damage" type="piercing">1d4</set>
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
 		</setters>
-	</element>	
+	</element>
 	<element name="Luckbringer" type="Magic Weapon" source="Shattered Sea Campaign Setting" id="ID_SHATTERED_SEA_CAMPAIGN_SETTING">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
 		<description>
@@ -41,6 +41,7 @@
 			<set name="weapon">Starknife</set>
 			<set name="name-format">Luckbringer</set>
 			<set name="enhancement">3</set>
+			<set name="damage" type="piercing">1d6</set>
 		</setters>
 	</element>	
 </elements>
