@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="sources.xml" url="127.0.0.1" />
+			<file name="sources.xml" url="https://github.com/Zorpoks/dnd-5e-shattered-seas/edit/main/custom/source.xml" />
 		</update>
 	</info>
 	<element name="Shattered Sea Campaign Setting" type="Source" source="Shattered Sea Campaign Setting" url="127.0.0.1" id="ID_SHATTERED_SEA_CAMPAIGN_SETTING">
@@ -12,10 +12,10 @@
 		<setters>
 			<set name="abbreviation">SS</set>
 			<set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/DnD_PHB.png</set>
-			<set name="author" abbreviation="MEH" url="127.0.0.1">Mads Holm</set>
+			<set name="author" abbreviation="MEH" url="https://github.com/Zorpoks/dnd-5e-shattered-seas.git">Mads Holm</set>
 			<set name="official">false</set>
 			<set name="core">false</set>
-			<set name="url">127.0.0.1</set>
+			<set name="url">https://github.com/Zorpoks/dnd-5e-shattered-seas.git</set>
 			<set name="release">20201129</set>
 		</setters>
 	</element>
