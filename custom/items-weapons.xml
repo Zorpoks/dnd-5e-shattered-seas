@@ -41,7 +41,6 @@
 			<set name="weapon">Starknife</set>
 			<set name="name-format">Luckbringer</set>
 			<set name="enhancement">3</set>
-			<set name="damage" type="piercing">1d6</set>
 		</setters>
 	</element>	
 </elements>
