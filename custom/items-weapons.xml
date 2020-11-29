@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/Zorpoks/dnd-5e-shattered-seas/main/custom/items-weapons.xml"/>
 		</update>
 	</info>
@@ -20,13 +20,14 @@
 			<set name="slot">onehand</set>
 			<set name="range">20/60</set>
 			<set name="damage" type="piercing">1d4</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_STARKNIFE</set>
 		</setters>
 	</element>
 	<element name="Luckbringer" type="Magic Weapon" source="Shattered Sea Campaign Setting" id="ID_SHATTERED_SEA_CAMPAIGN_SETTING">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
 		<description>
-			<p>This large starknife looks as if it has been repaired dozens of times by diffrent craftsmen using diffrent materials. When attuned to a Paladin of Desna who has the Lucky feat, increase the Luck pool by an amount equal to the wielders Charisma modifier.</p>
+			<p>This large starknife looks as if it has been repaired dozens of times by diffrent craftsmen using diffrent materials.</p>
+			<p class ="indent">When attuned to a Paladin of Desna who has the Lucky feat, increase the Luck pool by an amount equal to the wielders Charisma modifier.</p>
 			<p class="indent">Due to the Luckbringer's size, it can be wielded in two hands.</p>
 			<p class="indent">This magic weapon grants a +3 bonus to attack and damage rolls made with it, and it returns to the wielder’s hand immediately after it is used to make a ranged attack.</p>
 			<p class="indent">Luckbringer can absorb materials of other weapons, this gives the other weapon the broken condition and heals Starsword for 1d4 (for a medium one-handed weapon) HP, this scales with size and weapon type. This process takes 10 minutes.</p>
